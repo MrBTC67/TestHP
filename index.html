@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Klaus' persönliche Entwicklerseite – Projekte rund um IoT, MicroPython, ESP32 und Web-Interfaces.">
     <title>Klaus | IoT & MicroPython Projekte</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -25,8 +26,8 @@
             <h1 class="text-2xl font-bold tracking-tight">Klaus' Dev-Space</h1>
             <nav>
                 <ul class="flex space-x-4">
-                    <li><a href="#" class="hover:text-blue-200 transition">Projekte</a></li>
-                    <li><a href="#" class="hover:text-blue-200 transition">Über mich</a></li>
+                    <li><a href="#projekte" class="hover:text-blue-200 transition">Projekte</a></li>
+                    <li><a href="#ueber-mich" class="hover:text-blue-200 transition">Über mich</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,7 +45,7 @@
         </section>
 
         <!-- Project Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div id="projekte" class="grid grid-cols-1 md:grid-cols-2 gap-6">
             
             <!-- Project 1: Sensors -->
             <div class="glass-card p-6 bg-white hover:scale-[1.02] transition-transform">
@@ -107,6 +108,16 @@
                     <span class="text-3xl font-bold text-green-500">Verbunden</span>
                 </div>
             </div>
+        </section>
+
+        <!-- Über mich -->
+        <section id="ueber-mich" class="mt-8 glass-card p-8 bg-white">
+            <h3 class="text-xl font-bold mb-4">Über mich</h3>
+            <p class="text-gray-600">
+                Ich bin Klaus, ein Hobbyentwickler mit Interesse an Mikrocontrollern, IoT und Webentwicklung.
+                In meiner Freizeit experimentiere ich mit <strong>ESP32</strong>-Boards, schreibe <strong>MicroPython</strong>-Skripte
+                und baue einfache Web-Oberflächen zur Visualisierung von Sensordaten.
+            </p>
         </section>
 
     </main>
